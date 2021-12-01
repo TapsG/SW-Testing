@@ -1,5 +1,5 @@
 import chai from 'chai';
-import add from './src/capitalize.js';
+import capitalize from './src/capitalize.js';
 var expect = chai.expect
 
 describe('capitalize()', () => {
