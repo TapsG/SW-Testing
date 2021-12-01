@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "toString.test.js"
+    "test": "echo \"Error: no tests are implemented yet \" && exit 1"
   },
   "author": "",
   "license": "MIT",
