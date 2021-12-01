@@ -1,27 +1,4 @@
 language: node.js
 rvm:
 - 0.3.2
-{
-  "name": "software-testing-assignment",
-  "version": "1.0.0",
-  "description": "This is a project template for students participating in Software Testing course\r at Tampere University.",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test-7": "mocha  --timeout 10000 --recursive toString.test"
-  },
-  "author": "",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TapsG/SW-Testing.git"
-  },
-  "bugs": {
-    "url": "https://github.com/TapsG/SW-Testing/issues"
-  },
-  "homepage": "https://github.com/TapsG/SW-Testing#readme",
-  "dependencies": {
-    "chai": "^4.3.4",
-    "mocha": "^9.1.3"
-  }
-}
+
