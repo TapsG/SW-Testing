@@ -1,4 +1,4 @@
 language: node_js
-rvm:
-- 0.3.2
+node_js:
+- 12.13
 
