@@ -2,7 +2,7 @@ import chai from 'chai';
 import toNumber from './src/toNumber.js';
 var expect = chai.expect
 
-describe('upperFirst()', () => {
+describe('toNumber()', () => {
     it('"545", result should be number and equal to 545', () => {
         expect(toNumber("545")).to.be.a('number');
         expect(toNumber("545")).to.equal(545);
@@ -14,6 +14,7 @@ describe('upperFirst()', () => {
     });
 
     it('char 3, result should be number', () => {
+        
         expect(toNumber('3')).to.be.a('number');
         expect(toNumber('3') + 2).to.equal(5);
     });

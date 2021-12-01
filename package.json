@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "test-1": "mocha  --timeout 10000 --recursive add.test",
+    "test-2": "mocha  --timeout 10000 --recursive camelCase.test",
     "test-6": "mocha  --timeout 10000 --recursive toNumber.test",
     "test-7": "mocha  --timeout 10000 --recursive toString.test",
     "test-8": "mocha  --timeout 10000 --recursive toUpper.test",
