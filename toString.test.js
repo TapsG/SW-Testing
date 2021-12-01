@@ -1,7 +1,5 @@
-const chai = require('chai');
-const expect = chai.expect;
-
-const { toString } = require('./src/toString');
+import expect from 'chai';
+import toString from './src/toString.js';
 
 describe('toString()', () => {
     describe('input number 3', () => {
