@@ -1,10 +1,10 @@
-import expect from 'chai';
+import chai from 'chai';
 import toString from './src/toString.js';
+var expect = chai.expect
 
 describe('toString()', () => {
-    describe('input number 3', () => {
-        const output = toString(3);
-        expect(output).to.be.string;
-        expect(output).to.equal("3");
+    it('input number 3, result should be string and equal to "3"', () => {
+        expect(toString(3)).to.be.string;
+        expect(toString(3)).to.equal("3");
     });
 });
