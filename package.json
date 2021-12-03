@@ -14,7 +14,6 @@
     "test-7": "mocha  --timeout 10000 --recursive toString.test",
     "test-8": "mocha  --timeout 10000 --recursive toUpper.test",
     "test": "mocha  --timeout 10000 --recursive '*.test.js'"
-
   },
   "author": "",
   "license": "MIT",
