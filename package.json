@@ -7,6 +7,9 @@
   "scripts": {
     "test-1": "mocha  --timeout 10000 --recursive add.test",
     "test-2": "mocha  --timeout 10000 --recursive camelCase.test",
+    "test-3": "mocha  --timeout 10000 --recursive capitalize.test",
+    "test-4": "mocha  --timeout 10000 --recursive ceil.test",
+    "test-5": "mocha  --timeout 10000 --recursive clamp.test",
     "test-6": "mocha  --timeout 10000 --recursive toNumber.test",
     "test-7": "mocha  --timeout 10000 --recursive toString.test",
     "test-8": "mocha  --timeout 10000 --recursive toUpper.test",
