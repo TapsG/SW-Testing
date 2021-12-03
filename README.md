@@ -23,3 +23,5 @@ https://coveralls.io/repos/github/TapsG/SW-Testing/badge.svg?branch=main(Coverag
 
 .. image:: https://coveralls.io/repos/github/TapsG/SW-Testing/badge.svg?branch=main
 :target: https://coveralls.io/github/TapsG/SW-Testing?branch=main
+
+service_name: travis-pro
