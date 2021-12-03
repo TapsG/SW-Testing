@@ -7,6 +7,5 @@ install:
 - npm install
 script:
 - npm test
-- npm coveralls
 - npm run coveralls
 
